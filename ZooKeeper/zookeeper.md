@@ -24,7 +24,8 @@
 
 1、导入 zookeeper 
 
-```
+```xml
+
 <dependency>
     <groupId>org.apache.zookeeper</groupId>
     <artifactId>zookeeper</artifactId>
@@ -35,7 +36,7 @@
 
 2、JAVA  实现连接
 
-```
+```java
 package com.earle.zk;
 
 import org.apache.zookeeper.KeeperException;
